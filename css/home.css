@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+
+display:flex;
+position: relative;
+
+}
+
+section{
+    height: 100vh;
+}
+
+.menu ul{
+display: flex;
+position: absolute;
+padding: 50px;
+padding-top: 70px;
+right: 50px;
+}
+
+
+.menu li,.Account li{
+list-style-type: none;
+margin-right:10px ;
+
+
+}
+
+.Account li{
+    margin-left: 10px;
+}
+
+.menu li{
+
+    margin-left:10px;
+}
+
+.menu a,.Account a{
+text-decoration: none;
+}
+
+.img img{
+   width: 100%;
+   height: 200px;
+ 
+}
+
+.slider{
+    margin: 10px auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 350px;
+    position: relative;
+    border-radius: 5px;
+    border: 2px white solid;
+    overflow: hidden;
+    animation: slid 1s ease-out;
+}
+
+.slider img{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    transition: opacity 1s;
+    z-index: 1;
+    height: 57vh;
+}
+
+.slider img.active{
+    opacity: 1;
+}
+
+
+.img{
+    
+margin: auto;
+width: fit-content;
+
+
+}
+
+
+
+.fa-angle-left{
+    position: absolute;
+    left: 10px;
+    top:145px;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: fit-content;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.fa-angle-right{
+    position: absolute;
+    right: 10px;
+    top:145px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+
+
+.ind{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    right:35%
+    
+   
+}
+
+.ind ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    ;
+    
+}
+
+.ind ul li{
+    display: inline-block;
+    color: #321;
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    z-index: 4;
+    border-radius: 50%;
+    
+}
+.ind ul li.active{
+    background-color: rgb(91, 92, 92);
+    color: white;
+}
+
+.ind ul{
+    list-style-type:none;
+   display: flex;
+   justify-content: space-evenly;
+   width:90%;}
+
+   .slider img.active{
+    opacity: 1;
+}
+
+
+
+.foot{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.foot .fa-brands,.fa-regular{
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    
+
+}
+
+
+.fa-facebook{
+    color:white;
+    
+    
+}
+
+.fa-facebook:hover{
+  
+    box-shadow:0px 0px 10px  5px blue;
+    transform: scale(1.1);
+    background-color: blue;
+    color: white;
+}
+
+
+.fa-twitter{
+color: white;
+
+}
+
+.fa-twitter:hover{
+    box-shadow:0px 0px 10px  5px #00acee;
+    transform: scale(1.1);
+    color: white;
+    background-color: #00acee;
+}
+
+
+.fa-youtube{
+    color: white;
+    
+}
+
+.fa-youtube:hover{
+    box-shadow:0px 0px 10px  5px red;
+    transform: scale(1.1);
+    background-color: white;
+    color: red;
+}
+
+.fa-whatsapp{
+    color: white;
+    
+}
+
+.fa-whatsapp:hover{
+    box-shadow:0px 0px 10px  5px #25d366;
+    transform: scale(1.1);
+    color: white;
+    background-color: #25d366;
+}
+
+.fa-google-plus-g{
+    color: white;
+    
+    
+}
+
+.fa-google-plus-g:hover{
+    box-shadow:0px 0px 10px  5px #db4437;
+    transform: scale(1.1);
+    color: white;
+    background-color: #db4437;
+}
+
+
+.fa-tiktok{
+    /* text-shadow: 1px 1px #fe2c55,-1px -1px #25f4ee; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa-tiktok:hover{
+    box-shadow:2px 1px 2px  2px #fe2c55,-1px -1px 2px  2px #25f4ee;
+    transform: scale(1.1);
+    color: white;
+    background-color: #000011;
+}
+
+.copyrighttext{
+    font-size: 22px;
+}
+.nav-link{
+    
+    text-decoration: none;
+    background: blue;
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: block;
+    word-wrap: none;
+}
+ul li a:hover{
+    color: white;
+    transform: scale(1.3);
+    
+}
+
